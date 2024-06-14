@@ -86,7 +86,12 @@ if (ROOT == NULL) {
 			cout << "Tree is empty" << endl;
 			return;
 		}
-
+if (ptr != NULL) {
+			cout << ptr->info << " "; // root
+			preorder(ptr->leftchild); // left
+			preorder(ptr->rightchild); // right
+		}
+	}
 
 
 
