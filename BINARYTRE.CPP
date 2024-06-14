@@ -93,6 +93,9 @@ if (ptr != NULL) {
 		}
 	}
 
+    void postorder(Node* ptr) // function to perform inorder traversal
+	{
+
 
 
 
