@@ -66,6 +66,10 @@ class BinaryTree
 		}
 	}
 
+    void inorder(Node* ptr) // function to perform inorder traversal
+	{
+
+
 
 
 
