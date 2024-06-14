@@ -82,6 +82,10 @@ if (ROOT == NULL) {
 
     void preorder(Node* ptr) // function to perform inorder traversal
 	{
+        if (ROOT == NULL) {
+			cout << "Tree is empty" << endl;
+			return;
+		}
 
 
 
