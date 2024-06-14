@@ -80,6 +80,10 @@ if (ROOT == NULL) {
 		}
 	}
 
+    void preorder(Node* ptr) // function to perform inorder traversal
+	{
+
+
 
 
 
