@@ -73,6 +73,14 @@ if (ROOT == NULL) {
 			return;
 		}
 
+        if (ptr != NULL) {
+			inorder(ptr->leftchild); // left
+			cout << ptr->info << " "; // root
+			inorder(ptr->rightchild); // right
+		}
+	}
+
+
 
 
 
