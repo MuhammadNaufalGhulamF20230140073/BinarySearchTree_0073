@@ -9,7 +9,11 @@ public:
 	Node *rightchild;
     Node(string i, Node *l, Node *r) {
 		info = i;
-        leftchild = l;
+        leftchild = l;	
+		rightchild = r;
+	}
+};
+        
 
 
 
