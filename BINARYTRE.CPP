@@ -100,6 +100,13 @@ if (ptr != NULL) {
 			return;
 		}
 
+if (ptr != NULL) {
+			postorder(ptr->leftchild); // left
+			postorder(ptr->rightchild); // right
+			cout << ptr->info << " "; // root
+		}
+	}
+};
 
 
 
