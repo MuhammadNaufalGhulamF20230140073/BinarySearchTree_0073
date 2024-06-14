@@ -68,7 +68,10 @@ class BinaryTree
 
     void inorder(Node* ptr) // function to perform inorder traversal
 	{
-
+if (ROOT == NULL) {
+			cout << "Tree is empty" << endl;
+			return;
+		}
 
 
 
